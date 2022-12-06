@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "AoC",
+        "type": "python",
+        "request": "launch",
+        "program": "./main.py",
+        "args": ["5"],
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+  }
