@@ -10,7 +10,7 @@ class Day5(AOCDay):
             if (self.inputData[self.maxInitialHeight][1] != '1'):
                 self.maxInitialHeight += 1
             else:
-                print('Something went horribly wrong')
+                print('Max range')
                 break
 
         self.nbCrateStacks = int(max(filter(lambda x: x != '', self.inputData[self.maxInitialHeight].split(' '))))
